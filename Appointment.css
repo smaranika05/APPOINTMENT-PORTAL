@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+h1{
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(13, 206, 206);
+    color: wheat;
+}
+.doctor
+{
+    height:150%;
+    width: 100%;
+    background-image: url(eyecare.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat;
+}
+.navi
+{
+    width: 5%;
+    background-color: black;
+    color: white;
+   
+    float: left;
+
+}
+.form-box
+{    
+    float:right;
+    width: 420px;
+    height: 800px;
+   position: relative;
+    margin: 0% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow:  #ff61241f;
+    border-radius: 30px;
+} 
+.box{
+    text-align: center;
+    color: royalblue;
+
+}
+
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right,#2321b5,#21b5a6);
+    border-radius: 30px;
+    transition: .5s;
+}
+ .input-group
+ {
+     top: 120px;
+     position: absolute;
+     width: 300px;
+     transition: .5s;
+
+ }
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#2321b5,#21b5a6);
+    border: 0;
+    outline: none;
+    border-radius: 30px;;
+}
+.check-box
+{
+    margin: 30px 10px 30px 0;
+
+}
+span
+{
+    color: #777;
+    font-size: 15px;
+    bottom: 79px;
+    position: absolute;
+}
+#Old-Patient
+{
+    left: 50px;
+}
+#New-Patient
+{
+    left: 450px;
+}
